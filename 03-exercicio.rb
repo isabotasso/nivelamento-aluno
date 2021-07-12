@@ -4,7 +4,7 @@ dias  =  365
 horas  =  24
 minutos  =  60
 segundos  =  60
-anos_segundos = 1232000000
+anos_segundos = 1232000000.0
 
 puts " 1. retornar a quantidade de horas que tem em uma quantidade de anos, que será um valor designado para a função"
 
