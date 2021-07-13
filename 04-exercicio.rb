@@ -17,11 +17,11 @@ puts "o diametro do circulo sendo que o raio = 20 é =" + calcula_diametro(20) .
 puts "2) O comprimento de um círculo é seu diâmetro vezes o valor da constante Math :: PI (3.1415...)"
 
  def calcula_comprimento (raio)
-   return diametro = calcula_diametro * Math::PI
+   return diametro = calcula_diametro(raio)* Math::PI
  end
- puts "o comprimento do circulo sendo que o raio = 10 é =" + calcula_diametro(10) . to_s 
- puts "o comprimento do circulo sendo que o raio = 15 é =" + calcula_diametro(15) . to_s
- puts "o comprimento do circulo sendo que o raio = 20 é =" + calcula_diametro(20) . to_s
+ puts "o comprimento do circulo sendo que o raio = 10 é =" + calcula_comprimento(10) . to_s 
+ puts "o comprimento do circulo sendo que o raio = 15 é =" + calcula_comprimento(15) . to_s
+ puts "o comprimento do circulo sendo que o raio = 20 é =" + calcula_comprimento(20) . to_s
 
     
      puts "3) A área de um círculo é seu raio ao quadrado vezes o valor da constante Math :: PI (3.1415...)"
