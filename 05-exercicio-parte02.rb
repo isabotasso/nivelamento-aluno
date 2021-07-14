@@ -14,4 +14,3 @@ puts "Qual sua idade ?"
 idade = gets . to_f
 
 puts "Sua estimativa de batimentos é de: " + calcula_batimentos(idade) . to_s
-
