@@ -39,7 +39,7 @@ def fase_pandemica(vacinação, transmissão, ocupaçãoLeitos)
 
 if vacinação >= 0 && vacinação <= 1.0 && transmissão>= 0 && ocupaçãoLeitos >= 0 && ocupaçãoLeitos <= 1.0 
 
-
+      
 if vacinação > 0.8
    return "Fase Azul"
 elsif ocupaçãoLeitos <= 0.5 && transmissão < 1.0
